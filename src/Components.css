@@ -1,0 +1,38 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  gap: 1px;
+  width: 350px;
+}
+
+.ans-sec {
+  text-align: right;
+  padding: 10px 2px;
+  background-color: gray;
+  color: white;
+}
+
+.imput-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4%;
+  justify-content: center;
+}
+
+.imput-btn {
+  width: 24.6%;
+  height: 50px;
+  border: none;
+  margin-top: 0.4%;
+  margin-bottom: 0.4%;
+  font-weight: bolder;
+}
+
+.big {
+  width: 49.6%;
+}
+
+.sym {
+  background-color: orange;
+}
